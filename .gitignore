@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+env/
+# Exclude raw data dumps but ALLOW results/ deliverables
+data/*.csv
+data/*.parquet
+data/*.h5
+data/*.hdf5
+*.pkl
+*.pickle
+.ipynb_checkpoints/
+*.log
+mlruns/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
